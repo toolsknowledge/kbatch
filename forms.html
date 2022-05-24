@@ -1,0 +1,213 @@
+<!--
+    Forms
+    *****
+        collection of controls called as form
+    controls
+    ********
+    1) input
+
+    2) radio buttons (single selection)
+
+    3) check boxes   (multi selection)
+
+    4) dropdowns
+
+    5) textarea      (address)
+
+    6) DatePicker
+
+    7) TimePicker
+
+    8) Range
+
+    9) File Upload
+
+    10) Submit Button  &  Reset Button
+
+    Ex.
+    ***
+        Login Form
+
+        Registration Form
+
+        Enrollment Form
+
+        ---
+        ---
+        ---
+
+    <form></form> is the tag, used to create the forms
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="5">Registration Form</td>
+                </tr>
+
+                <tr>
+                    <td>First Name</td>
+
+                    <td colspan="4">
+                        <input type="text"
+                               name="fname"
+                               placeholder="Enter First Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Last Name</td>
+                    <td colspan="4">
+                        <input type="text"
+                               name="lname"
+                               placeholder="Enter Last Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password"
+                               name="upwd"
+                               placeholder="Enter Password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td colspan="4">
+                        <input type="email"
+                               name="uemail"
+                               placeholder="Enter User Email">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Gender</td>
+                    <td colspan="2">
+                        <input type="radio"
+                               name="gender"
+                               value="male">Male
+                    </td>
+                    <td colspan="2">
+                        <input type="radio"
+                               name="gender"
+                               value="female">Female
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Skills</td>
+                    <td>
+                        <input type="checkbox"
+                               name="skills"
+                               value="dotnet">.Net
+                    </td>
+                    <td>
+                        <input type="checkbox"
+                               name="skills"
+                               value="java">Java
+                    </td>
+                    <td>
+                        <input type="checkbox"
+                               name="skills"
+                               value="ui">UI
+                    </td>
+                    <td>
+                        <input type="checkbox"
+                               name="skills"
+                               value="cloud">Cloud
+                    </td>
+                </tr>
+
+               <tr>
+                   <td>Country</td>
+
+                   <td colspan="4">
+                       <select name="country">
+                           <option value="">Select Country</option>
+                           <option value="india">India</option>
+                           <option value="canada">Canada</option>
+                           <option value="china">China</option>
+                           <option value="japan">Japan</option>
+                       </select>
+                   </td>
+               </tr>
+
+
+               <tr>
+                   <td>DOB</td>
+                   <td colspan="4">
+                       <input type="date" name="dob">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>Time</td>
+                   <td colspan="4">
+                       <input type="time" name="utime">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>Fav Color</td>
+                   <td>
+                       <input type="color" name="favcolor">
+                   </td>
+               </tr>
+
+
+               <tr>
+                   <td>Address</td>
+                   <td colspan="4">
+                       <textarea cols="20" rows="3" name="uaddr"></textarea>
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>Expected Sal</td>
+                   <td colspan="4">
+                       <input type="range" 
+                              min="10000" 
+                              max="100000"
+                              step="10000"
+                              value="10000">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>Upload</td>
+                   <td colspan="4">
+                       <input type="file" name="profile">
+                   </td>
+               </tr>
+
+
+               <tr>
+                   <td colspan="3">
+                       <input type="submit" value="Register">
+                   </td>
+
+                   <td colspan="2">
+                       <input type="reset" value="Reset">
+                   </td>
+               </tr>
+
+
+            </table>
+        </form>
+    </body>
+</html>
+
+
+
