@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            fieldset{
+                border: 1px solid red;
+                width: 50%;
+                border-radius: 10px;
+                margin: 50px auto;
+                background: linear-gradient(90deg,red,salmon);
+            }   
+            legend{
+                color: red;
+                background-color: yellow;
+                padding: 10px;
+                border: 1px solid red;
+                border-radius: 10px;
+                font-family: Comic Sans MS;
+                text-align: center;
+            }
+            label{
+                margin-right: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: white;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select,
+            input[type="date"]{
+                width: 200px;
+                height: 25px;
+                outline: none;
+                border: 1px solid gray;
+                border-radius: 10px;
+            }
+            div{
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Registration Form</legend>
+            
+            <form name="sathyaForms" action="/java">
+                <!-- First Name--> 
+                <div>
+                    <label>First Name</label>
+                    <input type="text" name="fname" placeholder="Enter First Name">
+                </div>  
+                
+                
+                <!-- Last Name-->
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" name="lname" placeholder="Enter Last Name">
+                </div>
+
+
+                <!-- email-->
+                <div>
+                    <label style="margin-right: 85px;">Email</label>
+                    <input type="email" name="uemail" placeholder="Enter Email">
+                </div>
+
+                <!--Password-->
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="upassword" placeholder="enter password">
+                </div>
+
+
+                <!-- Gender -->
+                <div>
+                    <label style="margin-right: 65px;">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </div>
+
+
+                <!-- Qualification -->
+                <div>
+                    <label style="margin-right: 25px;">Qualification</label>
+                    <input type="checkbox" name="qual" value="BTech">BTech
+                    <input type="checkbox" name="qual" value="MCA">MCA
+                    <input type="checkbox" name="qual" value="BSC">BSc
+                    <input type="checkbox" name="qual" value="BCom">BCom
+                </div>
+
+                <!-- Address-->
+                <div>
+                    <label style="margin-right: 60px;">Address</label>
+                    <textarea name="uaddress" cols="25" rows="3"></textarea>
+                </div>
+
+                <!-- country -->
+                <div>
+                    <label style="margin-right: 60px;">Country</label>
+                    <select name="ucountry">
+                        <option value="india">India</option>
+                        <option value="usa">America</option>
+                        <option value="cnd">Canada</option>
+                    </select>
+                </div>
+
+                <!-- DOB -->
+                <div>
+                    <label style="margin-right: 90px;">DOB</label>
+                    <input type="date" name="udob">
+                </div>
+
+
+            </form>
+        
+        </fieldset>
+    </body>
+</html>
