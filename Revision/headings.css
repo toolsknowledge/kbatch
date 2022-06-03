@@ -1,0 +1,11 @@
+h1,h2,h3,h4,h5,h6{
+    color: red;
+    text-shadow: 0px 0px 5px green;
+    border: 2px double grey;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 0px 50px;
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 10px red;
+}

@@ -1,0 +1,268 @@
+Headings
+********
+    HTML, Supports 6 types of Headings
+
+    1) <h1></h1>   main heading
+
+    2) <h2></h2>   sub heading
+
+    3) <h3></h3>   sub heading
+
+    4) <h4></h4>   sub heading
+
+    5) <h5></h5>   sub heading
+
+    6) <h6></h6>   sub heading
+
+Ex.
+
+    ********************************
+    headings.html
+
+    headings.css
+    ********************************
+
+Paragraphs
+**********
+    <p></p> used to create the Paragraphs
+
+    *****************************
+    paragraphs.html
+
+    paragraphs.css
+    *****************************
+
+Divisions
+*********
+    Divisions are used to divide webpages into multiple sections
+
+
+##############################
+divisions.html
+
+divisions.css
+##############################
+
+
+Text Formating Tags
+*******************
+1) <pre></pre>
+    used to display the preformated text
+
+2) <samp></samp>
+    used to display output messages in web applications
+
+3) <kbd></kbd>
+    used to represent the keyboard shortcuts in web pages
+
+4) <var></var>
+    used to display the variables in webpages
+
+5) <code></code>
+    used to display programs(applications code) in web pages
+
+6) <address></address>
+    used to display addresses in webpages
+
+7) <q></q>
+    used to represent the quotations
+
+8) <blockquote cite=""></blockquote>
+    used to represent the quotations from different resources
+
+    Attribute :
+        cite = "www.worldhealthorganization.com"
+
+    cite Attribute used to locate/represent the source address of quotation
+
+9) <sup></sup>
+    used to represent the superscript
+
+10) <sub></sub>
+    used to represent the subscript
+
+11) <bdo dir="rtl"></bdo>
+    bdo stands for bi directional override
+
+12) <abbr title=""></abbr>
+    used to represent the abbrivations
+
+13) <b></b>
+    used to make the bold text
+
+14) <strong></strong>
+    used to make the strong text
+
+15) <i></i>
+    used to make the italic text
+
+16) <em></em>
+    used to make the emphasized text
+
+17) <del></del>
+    used to represent the deleted text
+
+18) <strike></strike>
+    used to represent the striked text
+
+19) <mark></mark>
+    used to represent the marked text
+
+20) <small></small>
+    used to represent the "small" text in webpages
+
+21) <big></big>
+    used to represent the "big" text in webpages
+
+22) <u></u>
+    used to underline the text
+
+
+23) &nbsp;
+    representing the single space
+
+24) &emsp;
+    representing the tab space in webpages
+
+
+-----------------------------------------------
+<span></span>
+
+Tables
+******
+    collection of rows and columns called as table
+
+<table></table>
+    this tag is the root tag, used to create tables
+
+<tr></tr>
+    this tag used to create the table rows
+
+<th></th>
+    this tag used to create the table headers
+
+<td></td>
+    this tag used to display table columns content
+
+Attributes
+**********
+1) border
+
+2) align
+
+3) cellpadding
+
+4) cellspacing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

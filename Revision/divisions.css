@@ -1,0 +1,39 @@
+div{
+    border: 1px solid gray;
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.c1{
+    background: linear-gradient(45deg,red,white,red);
+}
+.c2{
+    background-image: url("./logo.png");
+}
+.c3{
+    background-color: gray;
+}
+.c4{
+    background: linear-gradient(45deg,red,cyan);
+}
+.c5{
+    background-color: burlywood;
+}
+h2{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px red;
+    text-shadow: 0px 0px 10px black;
+}
+p{
+    color: white;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
