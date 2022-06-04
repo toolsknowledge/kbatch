@@ -1,0 +1,42 @@
+table,td,th{
+    border: 1px solid gray;
+}
+
+#my_table{
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+th{
+    height: 50px;
+    background-color: cyan;
+    color: red;
+}
+
+td{
+    height: 40px;
+}
+
+tr:nth-child(even){
+    background-color: salmon;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: burlywood;
+    color: white;
+}
+
+tr:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
