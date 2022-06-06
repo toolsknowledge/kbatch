@@ -160,6 +160,48 @@ Attributes
 
 
 
+Flex Box
+********
+
+1) display : flex
+    used to arrange the elements along with the main axis (x-axis)
+
+
+2) gap : 20px
+    used to maintain the gap between flex items
+
+
+3) justify-content : flex-start / center / flex-end / space-between / space-around / space-evenly
+
+default value is "flex-start"
+
+
+4) flex-direction = row / row-reverse / column / column-reverse
+
+default value is row
+
+
+5) flex-wrap : nowrap / wrap / wrap-reverse
+
+    default value is nowrap
+
+
+6) align-items : flex-start / center / flex-end / stretch
+
+    default value is stretch
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
