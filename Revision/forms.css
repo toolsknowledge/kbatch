@@ -1,0 +1,49 @@
+fieldset{
+    border: 1px solid gray;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+legend{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border: 1px solid sandybrown;
+    border-radius: 10px;
+}
+div{
+    margin: 10px 0px;
+}
+label{
+    font-family: Comic Sans MS;
+    color: gray;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    width: 50%;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    margin: 5px 2px;
+}
+span{
+    font-family: Comic Sans MS;
+    margin-right: 50px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
