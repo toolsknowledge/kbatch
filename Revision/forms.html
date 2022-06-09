@@ -41,13 +41,24 @@
             <form>
                 <div>
                     <label>First Name</label>
-                    <input type="text" placeholder="Enter First Name">
+                    <input type="text" placeholder="Enter First Name" 
+                    style="text-transform:uppercase">
                 </div>
 
                 <div>
                     <label>Last Name</label>
                     <input type="text" placeholder="Enter Last Name">
                 </div>
+
+
+                <div>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" 
+                     pattern=".{8,}">
+                </div>
+
+
+
 
                 <div>
                     <label>Email</label>
@@ -83,6 +94,77 @@
                         <option value="vsk">Vizag</option>
                     </select>
                 </div>
+
+
+                <div>
+                    <label>Address</label>
+                    <textarea cols="40" rows="5"></textarea>
+                </div>
+
+
+                <div>
+                    <label>DOB</label>
+                    <input type="date" 
+                           value="2022-06-09" 
+                           min="2020-01-01" 
+                           max="2030-01-01">
+                </div>
+
+
+                <div>
+                    <label>Preferred Time</label>
+                    <input type="time" value="09:42">
+                </div>
+
+
+                <div>
+                    <label>Choose Fav Color</label>
+                    <input type="color">
+                </div>
+
+
+                <div>
+                    <label>Salary</label>
+                    <input type="range" min="10000" max="100000" value="50000">
+                </div>
+
+
+
+                <div>
+                    <label>Upload Profile Pic</label>
+                    <input type="file">
+                </div>
+
+
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

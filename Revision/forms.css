@@ -22,7 +22,12 @@ label{
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-select{
+select,
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="color"],
+input[type="range"]{
     width: 50%;
     height: 20px;
     border: 1px solid gray;
@@ -35,6 +40,23 @@ span{
     margin-right: 50px;
     color: gray;
 }
+
+input[type="submit"],
+input[type="reset"]{
+    margin: 10px 50px;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(45deg,red,salmon);
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    width: 120px;
+    height: 40px;   
+}
+
 
 
 
