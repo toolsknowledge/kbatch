@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Absolute</title>
+        <style>
+            .common{
+                color: white;
+                text-align: center;
+                font-weight: bold;
+                padding: 10px;
+                width: 100px;
+                height: 70px;
+            }
+
+            .item-1{
+                background-color: red;
+               position: absolute;
+               z-index: 1;
+            }
+
+            .item-2{
+                background-color: green;
+                position: absolute;
+                z-index: 2;
+            }
+
+            .item-3{
+                background-color: blue;
+                position: absolute;
+            }
+
+            .item-4{
+                background-color: brown;
+                position: absolute;
+                left: 85px;
+            }
+
+            .item-5{
+                background-color: cadetblue;
+                position: absolute;
+                left: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="common item-1">ITEM_1</div>
+        <div class="common item-2">ITEM_2</div>
+        <div class="common item-3">ITEM_3</div>
+        <div class="common item-4">ITEM_4</div>
+        <div class="common item-5">ITEM_5</div>
+    </body>
+</html>
